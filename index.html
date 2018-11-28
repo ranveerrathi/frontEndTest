@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Turing Frontend UI</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "300px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</head>
+<body>
+  <div class="">
+    <div id="mySidenav" class="sidenav">
+      
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&nbsp;</a>
+      <span class="company-name">Giselle</span>
+      <ul class="navigation-menu">
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a class="active" href="index.html">Personal</a></li>
+        <li><a href="#">Manage Password</a></li>
+        <li><a href="email.html">Email</a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <header class="header">
+        <div class="user-avatar-contain">
+          <a href="#/" class="open-nav-btn" onclick="openNav()"><img src="images/arrow-left.png" alt="Slide Menu"></a>
+          <a class="user-name-link float-right" href="#/">Giselle</a>
+        </div>
+      </header>
+      <div class="content">
+        <div class="content-head">
+          <h2>Your account</h2>
+          <p>Tell us a little more about yourself
+        </div>
+        
+        <form class="form-information">
+          <legend>Personal information</legend>
+          <fieldset>
+            <div class="user-input-wrp">
+              <br/>
+              <input type="text" class="inputText" required/>
+              <span class="floating-label">First name</span>
+            </div>
+            <div class="user-input-wrp">
+              <br/>
+              <input type="text" class="inputText" required/>
+              <span class="floating-label">Last name</span>
+            </div>
+            <div class="user-input-wrp">
+              <br/>
+              <input type="tel" class="inputText" required/>
+              <span class="floating-label">Phone</span>
+            </div>
+
+            <div class="user-input-wrp">
+              <br/>
+              <label>Country</label>
+              <div class="">
+                <div class="select">
+                  <select name="slct" id="slct">
+                    <option>Choose country</option>
+                    <option value="1">United Stated</option>
+                    <option value="2">India</option>
+                    <option value="3">United Kingdom</option>
+                  </select>
+                </div>
+                
+              </div>
+              
+            </div>
+
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
