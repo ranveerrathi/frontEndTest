@@ -1,7 +1,23 @@
 @font-face {
-    font-family: 'robotoregular';
-    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-family: 'gorditaregular';
+    src: url('../fonts/hinted-gorditaregular-webfont.woff2') format('woff2'),
+         url('../fonts/hinted-gorditaregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gorditabold';
+    src: url('../fonts/hinted-gorditabold-webfont.woff2') format('woff2'),
+         url('../fonts/hinted-gorditabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gorditamedium';
+    src: url('../fonts/hinted-gorditamedium-webfont.woff2') format('woff2'),
+         url('../fonts/hinted-gorditamedium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -34,7 +50,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: 'robotoregular';
+	font-family: 'gorditaregular';
 }
 ol, ul {
 	list-style: none;
@@ -155,6 +171,7 @@ b, strong {
     font-weight: bold;
     font-size: 26px;
     margin-bottom: 60px;
+    font-family: 'gorditabold';
 }
 .form-information label {
     font-size: 26px;
@@ -217,6 +234,7 @@ select::-ms-expand {
     display: block;
     padding: 70px 0 60px 50px;
     border-bottom: 1px solid #e8e8e8;
+    font-family: 'gorditabold';
 }
 .user-name-link {
     color: #676565;
